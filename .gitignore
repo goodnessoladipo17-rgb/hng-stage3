@@ -1,0 +1,4 @@
+*.pyc
+__pycache__/
+audit.log
+*.log
