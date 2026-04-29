@@ -10,7 +10,7 @@ from audit import AuditLog
 from dashboard import Dashboard
 
 def load_config():
-    with open("/app/config.yaml") as f:
+    with open("/home/ubuntu/hng-stage3/detector/config.yaml") as f:
         return yaml.safe_load(f)
 
 def main():
