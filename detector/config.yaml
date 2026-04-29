@@ -1,0 +1,21 @@
+slack:
+  webhook_url: "YOUR_SLACK_WEBHOOK_URL"
+detection:
+  window_seconds: 60
+  baseline_window_minutes: 30
+  recalculation_interval: 60
+  zscore_threshold: 3.0
+  rate_multiplier: 5.0
+  error_rate_multiplier: 3.0
+blocking:
+  ban_durations:
+    - 600
+    - 1800
+    - 7200
+    - -1
+dashboard:
+  port: 8888
+  refresh_seconds: 3
+log:
+  nginx_log: "/var/lib/docker/volumes/hng-stage3_HNG-nginx-logs/_data/hng-access.log"
+  audit_log: "/home/ubuntu/hng-stage3/detector/audit.log"
