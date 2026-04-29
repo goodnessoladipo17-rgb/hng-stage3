@@ -46,3 +46,8 @@ sudo docker-compose up -d --build
 
 ## Repository
 https://github.com/goodnessoladipo17-rgb/hng-stage3
+## Blog Post
+https://dev.to/goodnessoladipo17rgb/how-i-built-a-real-time-ddos-detection-engine-for-nextcloud-h71
+
+## Blog Post
+https://dev.to/goodnessoladipo17rgb/how-i-built-a-real-time-ddos-detection-engine-for-nextcloud-h71
